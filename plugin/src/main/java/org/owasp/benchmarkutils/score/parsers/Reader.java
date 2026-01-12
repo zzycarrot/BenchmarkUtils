@@ -115,7 +115,8 @@ public abstract class Reader {
                 new WebInspectReader(),
                 new WhiteHatDynamicReader(),
                 new ZapJsonReader(),
-                new ZapReader());
+                new ZapReader(),
+                new JsaReader());
     }
 
     public abstract boolean canRead(ResultFile resultFile);
